@@ -1,6 +1,6 @@
 # Lab 6 – Spring Boot blog with GitLab CI
 
-Це спрощений блог-додаток на Spring Boot 3 + MySQL з налаштованим пайплайном GitLab CI.
+Це блог-додаток на Spring Boot 3 + MySQL з налаштованим пайплайном GitLab CI.
 
 ## Як запустити локально
 
