@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title th:text="${post.title}">Post</title>
+</head>
+<body>
+<a href="/blog">Back to list</a>
+<h1 th:text="${post.title}">Title</h1>
+<p><strong>Author:</strong> <span th:text="${post.author != null ? post.author.name : 'Unknown'}">Author</span></p>
+<p><strong>Category:</strong> <span th:text="${post.category != null ? post.category.name : 'No category'}">Category</span></p>
+<p th:text="${post.fullText}">Full text</p>
+</body>
+</html>
